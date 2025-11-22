@@ -1,49 +1,72 @@
-<br>
-
 <p align="center">
-<a href="https://github.com/3SUM"><img width="200" src="./logo/cactus.png" alt="Cactus logo"></a>
+  <a href="https://github.com/v0-3">
+    <img width="200" src="./logo/cactus.png" alt="Cactus logo">
+  </a>
 </p>
 
 <br>
 
-# Cactus 2.0
+# Cactus
 
-Cactus 2.0 will be an improved version of the original project. It is currently in the early stages of development.
+**Cactus** is a utility designed to automate attempts to claim League of Legends summoner names.  
+The original version is now available under **[Cactus 1.0](https://github.com/v0-3/cactus/tree/master/cactus-1.0)**.
 
-***NOTE:*** The original version of Cactus is now under [Cactus 1.0](https://github.com/3SUM/cactus/tree/master/cactus-1.0).
+## Overview
 
-There are two modes to Cactus:
+Cactus supports two operation modes:
 
-1. **Turbo**: Will attempt to change your summoner name to the requested one 24/7 until successful.
-2. **Sniper**: Will attempt to change your summoner name to the requested one on the expiration date.
-To see when a name expires check out [lolnames.gg](https://lolnames.gg/en/).
+### 1. Turbo Mode
+Continuously attempts to change your summoner name to the requested one.  
+Runs 24/7 until the operation either succeeds or is manually stopped.
 
-As of now *(24/05/2022)* Cactus 2.0 is in early development. No other public turbo/sniper tool is currently available as far as I can tell. If you wish to help with the development of Cactus 2.0 please contact me through Discord.
+### 2. Sniper Mode
+Attempts to change your summoner name precisely at the predicted expiration time.  
+To determine a name’s expiration date, visit **[lolnames.gg](https://lolnames.gg/en/)**.
 
-If you have questions or concerns please feel free to contact me here or on **Discord @icantcode#7527**.
+If you have questions or concerns, feel free to contact me here or on **Discord: `v0.3`**.
+
+---
 
 ## Legal Disclaimer
 
-This tool was strictly developed to demonstrate how straightforward it is to abuse the Riot API.
-Please refrain from using Cactus as it is once again developed for educational purposes only. Nevertheless, if you use this, you are doing it at your own risk. You have been warned.
+Cactus was developed **solely for educational and research purposes**, specifically to demonstrate how easily the Riot API can be abused if proper safeguards are not implemented.
 
-I am not accountable for any of your actions. Please do not misuse this tool.
+By using this project, you acknowledge the following:
+
+- You assume full responsibility for any actions performed using this tool.  
+- The author(s) are **not** liable for any misuse, account bans, penalties, or damages resulting from its use.  
+- This tool should **not** be used to exploit or interfere with Riot services.
+
+**Use at your own risk. You have been warned.**
+
+---
 
 ## Installation & Usage
 
-```
-TBA
-```
+When running Cactus, you will be prompted for:
 
-You will be prompted for your Riot account details, as well as the requested summoner name you wish to
-obtain and the mode that Cactus will run in. *Note*, the only regions Cactus has access to are the following: `NA, BR, EUW, & EUNE`.
+- Your Riot account credentials  
+- The summoner name you wish to obtain  
+- The operational mode (Turbo or Sniper)
 
-## Contributors
+Supported regions: `NA, BR, EUW, EUNE`
 
-[Luis Maya Aranda](https://github.com/3SUM) and [Steele Scott](https://github.com/steele123)
+> **Note:** Only these regions are integrated into the current implementation.
+
+---
+
+## Contributing
+
+Contributions, suggestions, and pull requests are welcome.  
+If you encounter issues or want to propose improvements, feel free to open an issue.
+
+### Contributors
+- [Luis Maya Aranda](https://github.com/v0-3)  
+- [Steele Scott](https://github.com/steele123)
+
+---
 
 ## License
 
-&copy; [Luis Maya Aranda](https://github.com/3SUM). All rights reserved.
-
-Licensed under the MIT License.
+© [Luis Maya Aranda](https://github.com/v0-3). All rights reserved.  
+Licensed under the **MIT License**.
