@@ -23,7 +23,7 @@ Runs 24/7 until the operation either succeeds or is manually stopped.
 Attempts to change your summoner name precisely at the predicted expiration time.  
 To determine a name’s expiration date, visit **[lolnames.gg](https://lolnames.gg/en/)**.
 
-If you have questions or concerns, feel free to contact me here or on **Discord: `v0.3`**.
+If you have questions or concerns, feel free to contact me here or on **Discord: `@v0.3`**.
 
 ---
 
